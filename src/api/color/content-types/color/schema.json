@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "singularName": "color",
+    "pluralName": "colors",
+    "displayName": "Color"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ColorName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ColorHex": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
